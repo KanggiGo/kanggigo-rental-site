@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "siteTitle": "KanggiGo Rental",
+    "siteTagline": "Sewa Skuter & Motor di Bali",
+    "defaultDescription": "KanggiGo Rental mengantarkan skuter dan motor terawat ke mana saja di Bali — tanpa deposit, antar gratis, dan bantuan darurat di jalan.",
+    "fleetTitle": "Armada Sewa Skuter & Motor di Bali",
+    "fleetDescription": "Jelajahi seluruh armada skuter matik, motor manual, motor adventure, dan skuter listrik untuk disewa di Bali. Bandingkan harga, filter berdasarkan jenis, dan pesan online tanpa deposit."
+  },
+  "Nav": {
+    "bikes": "Armada Kami",
+    "howItWorks": "Cara Kerja",
+    "locations": "Lokasi",
+    "news": "Berita",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "faq": "FAQ",
+    "admin": "Admin"
+  },
+  "Language": {
+    "label": "Bahasa"
+  },
+  "Currency": {
+    "label": "Mata Uang"
+  },
+  "Home": {
+    "heroTitle": "Sewa Skutermu di Bali Sekarang",
+    "heroSubtitle": "Tanpa deposit. Antar gratis ke hotel atau bandara. Kembalikan di mana saja di pulau ini.",
+    "searchPickup": "Lokasi antar / jemput",
+    "searchDropoff": "Lokasi kembali berbeda",
+    "searchStartDate": "Tanggal mulai",
+    "searchEndDate": "Tanggal selesai",
+    "searchButton": "Cari motor",
+    "anyLocation": "Pilih lokasi",
+    "trustZeroDeposit": "Tanpa deposit",
+    "trustZeroDepositBody": "Tidak ada jaminan di muka — harga yang tertera adalah harga total.",
+    "trustFreeDelivery": "Antar gratis",
+    "trustFreeDeliveryBody": "Kami antarkan motor ke hotel, vila, atau bandara Anda.",
+    "trustSecure": "Bayar tunai di tempat",
+    "trustSecureBody": "Bayar tunai (IDR atau USD) langsung ke pengemudi saat motor tiba — tanpa pembayaran online atau data kartu.",
+    "trustRoadside": "Bantuan darurat",
+    "trustRoadsideBody": "Bantuan hanya sepanggilan telepon, di mana saja di Bali, siang atau malam.",
+    "howItWorksTitle": "Cara Menyewa Skuter di Bali",
+    "howItWorksSubtitle": "Pesan online dalam hitungan menit, kami antar, Anda berkendara.",
+    "step1Title": "Pilih motor dan pesan online",
+    "step1Body": "Pilih dari skuter matik, motor manual, atau model adventure. Konfirmasi tanggal Anda dan dapatkan penawaran instan — tanpa deposit untuk setiap pemesanan.",
+    "step2Title": "Antar gratis ke hotel atau bandara",
+    "step2Body": "Kami antarkan skuter Anda langsung ke penginapan atau Bandara Ngurah Rai, lengkap dengan helm, bensin penuh, dan dudukan ponsel.",
+    "step3Title": "Jelajahi Bali, kembalikan di mana saja",
+    "step3Body": "Canggu, Ubud, Uluwatu, Seminyak — di mana pun perjalanan Anda berakhir, kami jemput motornya dari lokasi yang disepakati di pulau ini.",
+    "featuredTitle": "Motor Kami",
+    "featuredSubtitle": "Jelajahi Bali dengan armada berkualitas kami",
+    "viewAll": "Lihat semua motor",
+    "exploreTitle": "Tempat Terbaik untuk Dijelajahi di Bali dengan Skuter",
+    "exploreSubtitle": "Ambil di salah satu lokasi kami, kembalikan di mana pun perjalanan Anda berakhir.",
+    "reviewsTitle": "Kata para penyewa kami",
+    "reviewsSubtitle": "Ulasan nyata dari perjalanan nyata di Bali.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "faqSubtitle": "Semua yang perlu Anda ketahui sebelum berkendara."
+  },
+  "BikeCard": {
+    "perDay": "/hari",
+    "perWeek": "/minggu",
+    "perMonth": "/bulan",
+    "from": "Mulai",
+    "seats": "{count} kursi",
+    "helmets": "{count} helm",
+    "viewDetails": "Lihat detail",
+    "engineCc": "{cc}cc"
+  },
+  "BikeCategory": {
+    "SCOOTER_AUTOMATIC": "Skuter Matik",
+    "MANUAL": "Manual",
+    "ADVENTURE": "Adventure",
+    "ELECTRIC": "Listrik"
+  },
+  "Transmission": {
+    "AUTOMATIC": "Matik",
+    "MANUAL": "Manual"
+  },
+  "BikeStatus": {
+    "AVAILABLE": "Tersedia",
+    "MAINTENANCE": "Servis",
+    "RETIRED": "Tidak aktif"
+  },
+  "Filters": {
+    "title": "Filter",
+    "category": "Jenis motor",
+    "transmission": "Transmisi",
+    "priceRange": "Harga per hari",
+    "min": "Min",
+    "max": "Maks",
+    "any": "Semua",
+    "sortBy": "Urutkan",
+    "sortNewest": "Terbaru",
+    "sortPriceAsc": "Harga: rendah ke tinggi",
+    "sortPriceDesc": "Harga: tinggi ke rendah",
+    "resultsCount": "{count} motor ditemukan",
+    "noResults": "Belum ada motor yang cocok dengan filter Anda.",
+    "noResultsHint": "Coba perluas rentang harga atau pilih jenis lain.",
+    "apply": "Terapkan filter",
+    "reset": "Atur ulang"
+  },
+  "Pagination": {
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "page": "Halaman {current} dari {total}"
+  },
+  "BikeDetail": {
+    "specifications": "Spesifikasi",
+    "brand": "Merek",
+    "category": "Jenis motor",
+    "transmission": "Transmisi",
+    "engineCc": "Mesin",
+    "seats": "Kursi",
+    "helmets": "Helm disertakan",
+    "description": "Deskripsi",
+    "pricing": "Harga",
+    "perDay": "per hari",
+    "perWeek": "per minggu",
+    "perMonth": "per bulan",
+    "bookNow": "Ajukan motor ini",
+    "whatsappInquiry": "Tanya via WhatsApp",
+    "whatsappMessage": "Hai KanggiGo Rental, saya tertarik dengan {name} ({url}). Apakah tersedia?",
+    "contactAlternative": "Atau kirim permintaan pemesanan",
+    "similarTitle": "Motor serupa",
+    "backToFleet": "Kembali ke armada",
+    "reference": "Referensi"
+  },
+  "BookingForm": {
+    "title": "Ajukan pemesanan",
+    "name": "Nama lengkap",
+    "email": "Alamat email",
+    "phone": "Nomor telepon / WhatsApp",
+    "pickupLocation": "Lokasi jemput",
+    "dropoffLocation": "Lokasi kembali",
+    "differentDropoff": "Lokasi kembali berbeda",
+    "startDate": "Tanggal mulai",
+    "endDate": "Tanggal selesai",
+    "message": "Pesan (opsional)",
+    "submit": "Kirim permintaan pemesanan",
+    "submitting": "Mengirim...",
+    "success": "Terima kasih! Permintaan pemesanan Anda telah terkirim — kami akan mengonfirmasi ketersediaan via WhatsApp atau email segera.",
+    "error": "Terjadi kesalahan. Silakan coba lagi atau hubungi kami via WhatsApp.",
+    "nameRequired": "Silakan masukkan nama Anda.",
+    "emailInvalid": "Silakan masukkan alamat email yang valid.",
+    "phoneRequired": "Silakan masukkan nomor telepon atau WhatsApp.",
+    "locationRequired": "Silakan pilih lokasi jemput.",
+    "dateRequired": "Silakan pilih tanggal mulai dan selesai.",
+    "dateInvalid": "Tanggal selesai harus setelah tanggal mulai.",
+    "paymentNote": "Bayar tunai di tempat (IDR atau USD) — tidak perlu pembayaran online atau data kartu untuk memesan."
+  },
+  "ContactForm": {
+    "title": "Kirim pesan ke kami",
+    "name": "Nama lengkap",
+    "email": "Alamat email",
+    "phone": "Telepon (opsional)",
+    "message": "Pesan",
+    "submit": "Kirim pesan",
+    "submitting": "Mengirim...",
+    "success": "Terima kasih! Pesan Anda telah terkirim, kami akan segera menghubungi Anda kembali.",
+    "error": "Terjadi kesalahan. Silakan coba lagi atau hubungi kami via WhatsApp.",
+    "nameRequired": "Silakan masukkan nama Anda.",
+    "emailInvalid": "Silakan masukkan alamat email yang valid.",
+    "messageRequired": "Silakan masukkan pesan."
+  },
+  "Footer": {
+    "tagline": "Sewa skuter dan motor di seluruh Bali — tanpa deposit, antar gratis.",
+    "exploreTitle": "Jelajahi",
+    "locationsTitle": "Lokasi populer",
+    "contactTitle": "Kontak",
+    "whatsapp": "Chat via WhatsApp",
+    "rightsReserved": "Hak cipta dilindungi."
+  },
+  "About": {
+    "title": "Tentang KanggiGo Rental",
+    "intro": "KanggiGo Rental mengantarkan skuter dan motor terawat ke mana saja di Bali. Setiap motor diservis di antara masa sewa — ban, rem, cairan, lampu, kaca spion — dan kebijakan tanpa deposit kami berarti harga yang ditawarkan adalah harga yang Anda bayar.",
+    "body": "Bali berjalan dengan skuter, dan untuk masa tinggal lebih dari sehari atau dua hari, menyewa motor adalah cara paling praktis untuk menjelajahi pulau sesuai jadwal Anda sendiri. Kami mengantar ke hotel, vila, atau Bandara Ngurah Rai, dan menjemput motor dari mana saja di pulau saat perjalanan Anda berakhir."
+  },
+  "HowItWorksPage": {
+    "title": "Cara Kerja",
+    "intro": "Menyewa dengan KanggiGo Rental hanya butuh beberapa menit, dan tidak ada deposit yang harus dibayar di muka.",
+    "licenseTitle": "Persyaratan SIM",
+    "licenseBody": "SIM Internasional (IDP) dengan pengesahan sepeda motor, atau SIM yang berlaku dari negara asal Anda, diwajibkan oleh hukum Indonesia untuk mengendarai skuter atau motor di Bali. Kami sarankan untuk selalu membawanya.",
+    "deliveryTitle": "Pengantaran & penjemputan",
+    "deliveryBody": "Untuk pemesanan tiga hari atau lebih, pengantaran ke hotel, vila, atau Bandara Ngurah Rai gratis. Pemesanan lebih singkat dapat diatur dengan biaya antar kecil. Setiap motor dilengkapi helm, bensin penuh, dan dudukan ponsel.",
+    "paymentTitle": "Pembayaran",
+    "paymentBody": "Kami hanya menerima pembayaran tunai di tempat — Rupiah atau Dolar AS, dibayarkan langsung kepada pengemudi saat motor tiba. Tidak perlu pembayaran online, data kartu, atau transfer bank untuk mengonfirmasi pemesanan, dan tidak ada biaya yang dikenakan sampai motor ada di tangan Anda.",
+    "damageTitle": "Kerusakan & asuransi",
+    "damageBody": "Setiap sewa mencakup perlindungan kerusakan dasar dengan biaya tanggungan tetap, jadi Anda tidak pernah bertanggung jawab atas nilai penuh motor. Detail lengkap dikonfirmasi saat pemesanan Anda."
+  },
+  "ContactPage": {
+    "title": "Hubungi Kami",
+    "intro": "Punya pertanyaan tentang pemesanan atau butuh bantuan menemukan motor yang tepat? Hubungi kami dan tim kami akan segera merespons."
+  },
+  "FAQPage": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "intro": "Semua yang perlu Anda ketahui sebelum berkendara.",
+    "q1": "Berapa biaya sewa skuter di Bali?",
+    "a1": "Harga bervariasi tergantung model, musim, dan durasi sewa. Pemesanan mingguan dan bulanan menurunkan tarif harian efektif. Kebijakan tanpa deposit kami berarti harga yang ditawarkan adalah jumlah total yang dikenakan.",
+    "q2": "Bisakah saya menyewa skuter di Bali tanpa deposit?",
+    "a2": "Ya — setiap pemesanan KanggiGo Rental memiliki kebijakan tanpa deposit. Tanggung jawab kerusakan dibatasi pada biaya tanggungan tetap, bukan jaminan di muka.",
+    "q3": "Apakah saya perlu SIM untuk menyewa skuter di Bali?",
+    "a3": "Ya, SIM Internasional dengan pengesahan sepeda motor, atau SIM yang berlaku dari negara asal Anda, diwajibkan oleh hukum Indonesia.",
+    "q4": "Apakah asuransi termasuk dalam sewa?",
+    "a4": "Setiap motor mencakup perlindungan kerusakan dasar dengan biaya tanggungan tetap, jadi Anda tidak bertanggung jawab atas nilai penuh kendaraan.",
+    "q5": "Ke mana saja Anda bisa mengantar motor?",
+    "a5": "Ke mana saja di Bali — hotel, vila, atau Bandara Ngurah Rai Anda. Pengantaran gratis untuk pemesanan tiga hari atau lebih.",
+    "q6": "Apa perbedaan motor matik dan manual?",
+    "a6": "Skuter matik (seperti Honda Scoopy atau Vario) tinggal putar gas tanpa perlu oper gigi atau kopling — pilihan termudah untuk pengendara pemula di Bali. Motor manual memiliki kopling dan tuas gigi, cocok untuk pengendara berpengalaman yang menginginkan kendali lebih.",
+    "q7": "Bisakah saya menyewa skuter di Bali hanya untuk satu hari?",
+    "a7": "Ya, sewa harian tersedia untuk semua motor di armada kami. Pemesanan mingguan dan bulanan menurunkan tarif harian efektif jika Anda tinggal lebih lama.",
+    "q8": "Bagaimana jika motor mogok atau saya mengalami kecelakaan?",
+    "a8": "Hubungi layanan bantuan darurat 24/7 kami dan kami akan datang — dengan motor pengganti jika motor Anda tidak bisa diperbaiki di tempat. Tanggung jawab kerusakan dibatasi pada biaya tanggungan tetap berkat kebijakan tanpa deposit kami.",
+    "q9": "Bagaimana cara membayar sewa saya?",
+    "a9": "Bayar tunai di tempat — Anda membayar dalam Rupiah atau Dolar AS langsung kepada pengemudi saat motor diantar. Tidak perlu pembayaran online, data kartu, atau transfer bank untuk memesan."
+  },
+  "LocationsPage": {
+    "title": "Jelajahi Bali dengan Skuter",
+    "intro": "Ambil di salah satu lokasi kami, dan kembalikan di mana pun perjalanan Anda berakhir.",
+    "h1": "Sewa Skuter & Motor di {location}, Bali",
+    "bikesAvailable": "Motor tersedia untuk dijemput di {location}"
+  },
+  "LocationDescriptions": {
+    "canggu": "Canggu adalah pusat surfing dan kafe santai Bali di pantai barat — jalan datar dan jarak pendek membuatnya mudah dijelajahi dengan skuter.",
+    "seminyak": "Seminyak adalah kawasan resor pantai Bali yang mapan, dekat dengan bandara dan mudah dijangkau ke Kuta dan Legian.",
+    "uluwatu": "Uluwatu terletak di semenanjung selatan Bali, terkenal dengan pura di atas tebing dan ombak surfing kelas dunia — jalan berkelok memberi tantangan bagi pengendara berpengalaman.",
+    "ubud": "Ubud adalah jantung budaya Bali, dikelilingi sawah dan hutan di dataran tinggi yang sejuk — skuter adalah cara terbaik untuk mencapai Tegalalang dan desa-desa sekitarnya.",
+    "sanur": "Sanur adalah kota pantai yang tenang dan ramah keluarga di pantai timur, dengan air yang tenang dan jalan yang datar dan mudah.",
+    "denpasar-airport": "Pengantaran dan penjemputan Bandara Ngurah Rai — jemput sesuai detail penerbangan dengan pengemudi menunggu Anda di terminal."
+  },
+  "NewsPage": {
+    "title": "Berita Motor & Skuter Bali",
+    "intro": "Peraturan lalu lintas, keselamatan berkendara, acara, dan info praktis untuk siapa pun yang mengendarai skuter atau motor di Bali.",
+    "readMore": "Baca selengkapnya",
+    "backToNews": "Kembali ke berita",
+    "relatedTitle": "Lainnya dari KanggiGo Rental",
+    "noArticles": "Belum ada artikel yang diterbitkan — kunjungi lagi nanti.",
+    "publishedOn": "Diterbitkan {date}"
+  },
+  "NotFound": {
+    "title": "Halaman tidak ditemukan",
+    "body": "Halaman yang Anda cari tidak ada atau mungkin telah dipindahkan.",
+    "cta": "Kembali ke beranda"
+  },
+  "Common": {
+    "loading": "Memuat...",
+    "home": "Beranda"
+  },
+  "SeoContent": {
+    "howTitle": "Menyewa Skuter di Bali: Apa yang Perlu Diketahui",
+    "howBody": "Berkendara dengan skuter adalah cara tercepat dan paling terjangkau untuk berkeliling Bali, di mana sekitar empat juta motor berbagi jalan dengan jumlah mobil yang jauh lebih sedikit. Menyewa dengan KanggiGo Rental dimulai dengan memilih motor secara online — skuter matik seperti Honda Vario atau Yamaha NMAX cocok untuk sebagian besar pengendara, sementara motor manual atau adventure memberi kendali lebih di jalur yang lebih menanjak di pedalaman. Setelah tanggal dikonfirmasi, kami antarkan motor ke hotel, vila, atau Bandara Ngurah Rai lengkap dengan helm, bensin penuh, dan dudukan ponsel, tanpa deposit di muka. Saat perjalanan selesai, kembalikan motor di mana saja di pulau ini — Canggu, Ubud, Uluwatu, Seminyak, Sanur, atau kembali ke bandara — dan kami akan menjemputnya.",
+    "costTitle": "Berapa Biaya Sewa Skuter di Bali?",
+    "costBody": "Harga sewa skuter di Bali umumnya berkisar dari sekitar $6 per hari untuk skuter matik dasar seperti Honda Scoopy hingga $15-20 per hari untuk motor adventure atau manual yang lebih besar, dengan pemesanan mingguan dan bulanan yang menurunkan tarif harian efektif secara signifikan. Sebagai perbandingan, satu perjalanan ride-hailing melintasi kota bisa lebih mahal dari sewa skuter seharian penuh. Bensin juga murah — tangki penuh pada skuter kecil hanya berharga beberapa dolar dan biasanya cukup untuk dua hari berkendara normal.",
+    "fleetTitle": "Standar Armada Kami",
+    "fleetBody": "Setiap motor dalam armada kami diperiksa dan diservis di antara masa sewa — ban, rem, cairan, lampu, dan kaca spion — sehingga Anda tidak pernah mendapatkan kendaraan yang belum diperiksa. Jajaran kami mencakup skuter matik (Honda Scoopy, Vario, Yamaha NMAX) untuk berkendara mudah di kota dan jalan pantai, model adventure (Honda ADV, Yamaha XMAX) untuk perjalanan lebih jauh dan medan berbukit, motor manual (Yamaha XSR, Honda CB150R) untuk pengendara yang menginginkan kendali lebih, serta pilihan skuter listrik untuk perjalanan yang lebih senyap dan hemat biaya di sekitar kota."
+  }
+}

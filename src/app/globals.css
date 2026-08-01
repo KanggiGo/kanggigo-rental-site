@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
+/*
+ * Site color system — single source of truth. Change values here only;
+ * every component below references these tokens (never a raw hex).
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand palette locked to the KanggiGo Rental logo kit: deep navy +
+     champagne gold. Keep any future palette edits confined to this block. */
+  --color-primary: #132941;
+  --color-primary-hover: #1b3a5b;
+  --color-accent: #c6a15b;
+  --color-accent-hover: #ad8a41;
+  --color-white: #ffffff;
+  --color-cream: #fbf7ee;
+  --color-sand: #f3ecdd;
+  --color-surface: #f6f7f5;
+  --color-border: #e3e1da;
+  --color-muted: #6b7268;
+  --color-whatsapp: #25d366;
+
+  --ink-overlay: rgba(19, 41, 65, 0.72);
+  --ink-overlay-strong: rgba(19, 41, 65, 0.88);
+  --white-panel: rgba(255, 255, 255, 0.92);
+
+  /* `ink` is the Tailwind-facing utility name (bg-ink, text-ink, ...) so it
+     doesn't need renaming every usage — it's an alias for primary. Secondary
+     text/backgrounds/borders should use `muted` / `surface` / `border`
+     directly. Accent (gold) is for CTAs and price highlights only — never
+     large fills or body text, and always paired with dark (`text-primary`)
+     text on top of it, never white — champagne gold doesn't clear
+     contrast requirements against white. */
+  --color-ink: var(--color-primary);
+
+  --font-heading-active: var(--font-playfair);
+  --font-body-active: var(--font-inter);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-ink: var(--color-ink);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-cream: var(--color-cream);
+  --color-sand: var(--color-sand);
+  --color-surface: var(--color-surface);
+  --color-border: var(--color-border);
+  --color-muted: var(--color-muted);
+  --color-whatsapp: var(--color-whatsapp);
+  --color-ink-overlay: var(--ink-overlay);
+  --color-ink-overlay-strong: var(--ink-overlay-strong);
+  --color-white-panel: var(--white-panel);
+  --font-heading: var(--font-heading-active);
+  --font-body: var(--font-body-active);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-ink);
+  /* Warm cream base instead of stark white, plus a barely-there wave-line
+     texture (nods to rice terraces / ocean swell) so large empty sections
+     have some depth. Both are subtle by design — content cards stay
+     bg-white so they lift cleanly off this base rather than blending into
+     it, which pure white-on-white was doing before. */
+  background-color: var(--color-cream);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='42' viewBox='0 0 140 42'%3E%3Cpath d='M0 21 Q 17.5 3 35 21 T 70 21 T 105 21 T 140 21' stroke='%23132941' stroke-width='1' fill='none' opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  accent-color: var(--color-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

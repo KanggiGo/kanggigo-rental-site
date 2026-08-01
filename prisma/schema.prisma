@@ -1,0 +1,217 @@
+// Prisma schema for KanggiGo Rental
+// Dev uses SQLite for zero-setup local development. To move to PostgreSQL,
+// change `provider` below to "postgresql" and set DATABASE_URL to a Postgres
+// connection string, then re-run `prisma migrate dev`.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum BikeCategory {
+  SCOOTER_AUTOMATIC
+  MANUAL
+  ADVENTURE
+  ELECTRIC
+}
+
+enum Transmission {
+  AUTOMATIC
+  MANUAL
+}
+
+enum Currency {
+  IDR
+  USD
+  EUR
+  AUD
+  GBP
+}
+
+enum BikeStatus {
+  AVAILABLE
+  MAINTENANCE
+  RETIRED
+}
+
+enum BookingStatus {
+  NEW
+  CONTACTED
+  CONFIRMED
+  CANCELLED
+}
+
+enum BookingSource {
+  WHATSAPP
+  FORM
+}
+
+enum AdminRole {
+  ADMIN
+  STAFF
+}
+
+model Bike {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String
+
+  brand        String
+  category     BikeCategory
+  transmission Transmission
+  engineCc     Int
+  seats        Int          @default(2)
+  helmetsIncluded Int       @default(2)
+
+  // Always USD-normalized (see src/lib/currency.ts) so price filtering/sorting
+  // stays correct regardless of quote currency. `currency` records the
+  // originally-quoted currency only; display conversion always pivots from
+  // this USD value.
+  pricePerDay   Decimal  @default(0)
+  pricePerWeek  Decimal  @default(0)
+  pricePerMonth Decimal  @default(0)
+  currency      Currency @default(USD)
+
+  status     BikeStatus @default(AVAILABLE)
+  isFeatured Boolean    @default(false)
+
+  images       BikeImage[]
+  translations BikeTranslation[]
+  bookings     Booking[]
+  reviews      Review[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category, transmission])
+  @@index([isFeatured])
+  @@index([status])
+}
+
+model BikeTranslation {
+  id          String @id @default(cuid())
+  bikeId      String
+  bike        Bike   @relation(fields: [bikeId], references: [id], onDelete: Cascade)
+  locale      String
+  name        String
+  description String
+
+  @@unique([bikeId, locale])
+}
+
+model BikeImage {
+  id           String  @id @default(cuid())
+  bikeId       String
+  bike         Bike    @relation(fields: [bikeId], references: [id], onDelete: Cascade)
+  url          String
+  altText      String  @default("")
+  sortOrder    Int     @default(0)
+  isCoverImage Boolean @default(false)
+
+  @@index([bikeId])
+}
+
+model Location {
+  id           String   @id @default(cuid())
+  name         String
+  slug         String   @unique
+  description  String   @default("")
+  isAirport    Boolean  @default(false)
+  deliveryNote String   @default("")
+
+  translations         LocationTranslation[]
+  bookingsAsPickup      Booking[] @relation("PickupLocation")
+  bookingsAsDropoff     Booking[] @relation("DropoffLocation")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model LocationTranslation {
+  id          String   @id @default(cuid())
+  locationId  String
+  location    Location @relation(fields: [locationId], references: [id], onDelete: Cascade)
+  locale      String
+  name        String
+  description String
+
+  @@unique([locationId, locale])
+}
+
+model Booking {
+  id     String  @id @default(cuid())
+  bikeId String?
+  bike   Bike?   @relation(fields: [bikeId], references: [id], onDelete: SetNull)
+
+  customerName String
+  email        String
+  phone        String @default("")
+
+  pickupLocationId  String?
+  pickupLocation    Location? @relation("PickupLocation", fields: [pickupLocationId], references: [id], onDelete: SetNull)
+  dropoffLocationId String?
+  dropoffLocation   Location? @relation("DropoffLocation", fields: [dropoffLocationId], references: [id], onDelete: SetNull)
+
+  startDate DateTime
+  endDate   DateTime
+  message   String @default("")
+
+  status BookingStatus @default(NEW)
+  source BookingSource @default(FORM)
+
+  contactedAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([bikeId])
+  @@index([status])
+}
+
+model Review {
+  id           String  @id @default(cuid())
+  customerName String
+  rating       Int
+  comment      String
+  bikeId       String?
+  bike         Bike?   @relation(fields: [bikeId], references: [id], onDelete: SetNull)
+  isFeatured   Boolean @default(false)
+
+  createdAt DateTime @default(now())
+
+  @@index([bikeId])
+  @@index([isFeatured])
+}
+
+model Article {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  title         String
+  excerpt       String
+  body          String
+  coverImageUrl String   @default("")
+  category      String   @default("News")
+  isPublished   Boolean  @default(true)
+  publishedAt   DateTime @default(now())
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isPublished, publishedAt])
+  @@index([category])
+}
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  name         String
+  role         AdminRole @default(STAFF)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

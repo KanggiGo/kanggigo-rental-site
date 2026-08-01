@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "siteTitle": "KanggiGo Rental",
+    "siteTagline": "Location de scooters et motos à Bali",
+    "defaultDescription": "KanggiGo Rental livre des scooters et motos bien entretenus partout à Bali — sans caution, livraison gratuite et assistance routière incluse.",
+    "fleetTitle": "Flotte de Location de Scooters et Motos à Bali",
+    "fleetDescription": "Parcourez notre flotte complète de scooters automatiques, motos manuelles, modèles adventure et scooters électriques à louer à Bali. Comparez les prix, filtrez par type et réservez en ligne sans caution."
+  },
+  "Nav": {
+    "bikes": "Notre Flotte",
+    "howItWorks": "Comment Ça Marche",
+    "locations": "Lieux",
+    "news": "Actualités",
+    "about": "À Propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "admin": "Admin"
+  },
+  "Language": {
+    "label": "Langue"
+  },
+  "Currency": {
+    "label": "Devise"
+  },
+  "Home": {
+    "heroTitle": "Louez Votre Scooter à Bali Maintenant",
+    "heroSubtitle": "Sans caution. Livraison gratuite à votre hôtel ou à l'aéroport. Retour n'importe où sur l'île.",
+    "searchPickup": "Lieu de livraison / prise en charge",
+    "searchDropoff": "Lieu de retour différent",
+    "searchStartDate": "Date de début",
+    "searchEndDate": "Date de fin",
+    "searchButton": "Rechercher un véhicule",
+    "anyLocation": "Choisir un lieu",
+    "trustZeroDeposit": "Sans caution",
+    "trustZeroDepositBody": "Aucune caution à l'avance — le prix indiqué est le prix total.",
+    "trustFreeDelivery": "Livraison gratuite",
+    "trustFreeDeliveryBody": "Nous livrons le véhicule à votre hôtel, villa ou l'aéroport.",
+    "trustSecure": "Paiement en espèces à la livraison",
+    "trustSecureBody": "Payez en espèces (IDR ou USD) directement au livreur à l'arrivée du véhicule — aucun paiement en ligne ni coordonnées bancaires requis.",
+    "trustRoadside": "Assistance routière",
+    "trustRoadsideBody": "Une aide à portée d'appel, partout à Bali, jour et nuit.",
+    "howItWorksTitle": "Comment Louer un Scooter à Bali",
+    "howItWorksSubtitle": "Réservez en ligne en quelques minutes, nous livrons, vous roulez.",
+    "step1Title": "Choisissez un véhicule et réservez en ligne",
+    "step1Body": "Choisissez parmi nos scooters automatiques, motos manuelles ou modèles adventure. Confirmez vos dates et obtenez un devis instantané — sans caution pour toute réservation.",
+    "step2Title": "Livraison gratuite à l'hôtel ou à l'aéroport",
+    "step2Body": "Nous livrons votre scooter directement à votre hébergement ou à l'aéroport de Ngurah Rai, avec casque, plein d'essence et support téléphone inclus.",
+    "step3Title": "Explorez Bali, rendez le véhicule où vous voulez",
+    "step3Body": "Canggu, Ubud, Uluwatu, Seminyak — où que se termine votre séjour, nous récupérons le véhicule à l'endroit convenu sur l'île.",
+    "featuredTitle": "Nos Véhicules",
+    "featuredSubtitle": "Explorez Bali avec notre flotte de qualité",
+    "viewAll": "Voir tous les véhicules",
+    "exploreTitle": "Les Meilleurs Endroits à Explorer à Bali en Scooter",
+    "exploreSubtitle": "Récupérez votre véhicule dans l'un de nos lieux, rendez-le où votre séjour se termine.",
+    "reviewsTitle": "Ce que disent nos clients",
+    "reviewsSubtitle": "De vrais avis sur de vrais séjours à Bali.",
+    "faqTitle": "Questions Fréquentes",
+    "faqSubtitle": "Tout ce qu'il faut savoir avant de rouler."
+  },
+  "BikeCard": {
+    "perDay": "/jour",
+    "perWeek": "/semaine",
+    "perMonth": "/mois",
+    "from": "À partir de",
+    "seats": "{count, plural, one {# place} other {# places}}",
+    "helmets": "{count, plural, one {# casque} other {# casques}}",
+    "viewDetails": "Voir les détails",
+    "engineCc": "{cc}cc"
+  },
+  "BikeCategory": {
+    "SCOOTER_AUTOMATIC": "Scooter Automatique",
+    "MANUAL": "Manuelle",
+    "ADVENTURE": "Adventure",
+    "ELECTRIC": "Électrique"
+  },
+  "Transmission": {
+    "AUTOMATIC": "Automatique",
+    "MANUAL": "Manuelle"
+  },
+  "BikeStatus": {
+    "AVAILABLE": "Disponible",
+    "MAINTENANCE": "En entretien",
+    "RETIRED": "Retiré"
+  },
+  "Filters": {
+    "title": "Filtres",
+    "category": "Type de véhicule",
+    "transmission": "Transmission",
+    "priceRange": "Prix par jour",
+    "min": "Min",
+    "max": "Max",
+    "any": "Tous",
+    "sortBy": "Trier par",
+    "sortNewest": "Plus récents",
+    "sortPriceAsc": "Prix croissant",
+    "sortPriceDesc": "Prix décroissant",
+    "resultsCount": "{count, plural, one {# véhicule trouvé} other {# véhicules trouvés}}",
+    "noResults": "Aucun véhicule ne correspond à vos filtres pour le moment.",
+    "noResultsHint": "Essayez d'élargir la fourchette de prix ou de choisir un autre type.",
+    "apply": "Appliquer les filtres",
+    "reset": "Réinitialiser"
+  },
+  "Pagination": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page {current} sur {total}"
+  },
+  "BikeDetail": {
+    "specifications": "Caractéristiques",
+    "brand": "Marque",
+    "category": "Type de véhicule",
+    "transmission": "Transmission",
+    "engineCc": "Moteur",
+    "seats": "Places",
+    "helmets": "Casques inclus",
+    "description": "Description",
+    "pricing": "Tarifs",
+    "perDay": "par jour",
+    "perWeek": "par semaine",
+    "perMonth": "par mois",
+    "bookNow": "Demander ce véhicule",
+    "whatsappInquiry": "Demander sur WhatsApp",
+    "whatsappMessage": "Bonjour KanggiGo Rental, je suis intéressé(e) par le {name} ({url}). Est-il disponible ?",
+    "contactAlternative": "Ou envoyez une demande de réservation",
+    "similarTitle": "Véhicules similaires",
+    "backToFleet": "Retour à la flotte",
+    "reference": "Référence"
+  },
+  "BookingForm": {
+    "title": "Demander une réservation",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone / numéro WhatsApp",
+    "pickupLocation": "Lieu de prise en charge",
+    "dropoffLocation": "Lieu de retour",
+    "differentDropoff": "Lieu de retour différent",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "message": "Message (facultatif)",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi...",
+    "success": "Merci ! Votre demande de réservation a été envoyée — nous confirmerons la disponibilité par WhatsApp ou e-mail sous peu.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter sur WhatsApp.",
+    "nameRequired": "Veuillez entrer votre nom.",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+    "phoneRequired": "Veuillez entrer un numéro de téléphone ou WhatsApp.",
+    "locationRequired": "Veuillez choisir un lieu de prise en charge.",
+    "dateRequired": "Veuillez choisir vos dates de début et de fin.",
+    "dateInvalid": "La date de fin doit être postérieure à la date de début.",
+    "paymentNote": "Paiement en espèces à la livraison (IDR ou USD) — aucun paiement en ligne ni coordonnées bancaires requis pour réserver."
+  },
+  "ContactForm": {
+    "title": "Envoyez-nous un message",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone (facultatif)",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi...",
+    "success": "Merci ! Votre message a été envoyé, nous vous répondrons sous peu.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter sur WhatsApp.",
+    "nameRequired": "Veuillez entrer votre nom.",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+    "messageRequired": "Veuillez entrer un message."
+  },
+  "Footer": {
+    "tagline": "Location de scooters et motos partout à Bali — sans caution, livraison gratuite.",
+    "exploreTitle": "Explorer",
+    "locationsTitle": "Lieux populaires",
+    "contactTitle": "Contact",
+    "whatsapp": "Discuter sur WhatsApp",
+    "rightsReserved": "Tous droits réservés."
+  },
+  "About": {
+    "title": "À Propos de KanggiGo Rental",
+    "intro": "KanggiGo Rental livre des scooters et motos bien entretenus partout à Bali. Chaque véhicule est entretenu entre chaque location — pneus, freins, fluides, feux, rétroviseurs — et notre politique sans caution signifie que le prix annoncé est le prix payé.",
+    "body": "Bali fonctionne au scooter, et pour tout séjour de plus d'un jour ou deux, louer un véhicule est le moyen le plus pratique de découvrir l'île à votre rythme. Nous livrons à votre hôtel, villa ou à l'aéroport de Ngurah Rai, et récupérons le véhicule n'importe où sur l'île à la fin de votre séjour."
+  },
+  "HowItWorksPage": {
+    "title": "Comment Ça Marche",
+    "intro": "Louer avec KanggiGo Rental prend quelques minutes, et aucune caution n'est à payer à l'avance.",
+    "licenseTitle": "Exigences en matière de permis",
+    "licenseBody": "Un permis de conduire international (IDP) avec mention moto, ou un permis valide de votre pays d'origine, est requis par la loi indonésienne pour conduire un scooter ou une moto à Bali. Nous recommandons de le porter sur vous en permanence.",
+    "deliveryTitle": "Livraison et prise en charge",
+    "deliveryBody": "Pour les réservations de trois jours ou plus, la livraison à votre hôtel, villa ou à l'aéroport de Ngurah Rai est gratuite. Les réservations plus courtes peuvent être organisées moyennant de petits frais de livraison. Chaque véhicule arrive avec un casque, le plein d'essence et un support téléphone.",
+    "paymentTitle": "Paiement",
+    "paymentBody": "Nous acceptons uniquement le paiement en espèces à la livraison — en roupies indonésiennes ou en dollars américains, payé directement au livreur à l'arrivée du véhicule. Aucun paiement en ligne, coordonnées bancaires ou virement n'est requis pour confirmer une réservation, et rien n'est débité avant que le véhicule ne soit entre vos mains.",
+    "damageTitle": "Dommages et assurance",
+    "damageBody": "Chaque location inclut une couverture de base des dommages avec une franchise fixe, afin que vous ne soyez jamais responsable de la valeur totale du véhicule. Les détails complets sont confirmés avec votre réservation."
+  },
+  "ContactPage": {
+    "title": "Contactez-nous",
+    "intro": "Une question sur une réservation ou besoin d'aide pour trouver le bon véhicule ? Contactez-nous et notre équipe vous répondra sous peu."
+  },
+  "FAQPage": {
+    "title": "Questions Fréquentes",
+    "intro": "Tout ce qu'il faut savoir avant de rouler.",
+    "q1": "Combien coûte la location d'un scooter à Bali ?",
+    "a1": "Les prix varient selon le modèle, la saison et la durée de location. Les réservations à la semaine ou au mois réduisent le tarif journalier effectif. Notre politique sans caution signifie que le prix annoncé est le montant total facturé.",
+    "q2": "Puis-je louer un scooter à Bali sans caution ?",
+    "a2": "Oui — chaque réservation KanggiGo Rental bénéficie d'une politique sans caution. La responsabilité en cas de dommages est plafonnée à une franchise fixe au lieu d'une caution à l'avance.",
+    "q3": "Ai-je besoin d'un permis pour louer un scooter à Bali ?",
+    "a3": "Oui, un permis de conduire international avec mention moto, ou un permis valide de votre pays d'origine, est requis par la loi indonésienne.",
+    "q4": "L'assurance est-elle incluse dans la location ?",
+    "a4": "Chaque véhicule inclut une couverture de base des dommages avec une franchise fixe, afin que vous ne soyez pas responsable de la valeur totale du véhicule.",
+    "q5": "Où pouvez-vous livrer le véhicule ?",
+    "a5": "Partout à Bali — votre hôtel, votre villa ou l'aéroport de Ngurah Rai. La livraison est gratuite pour les réservations de trois jours ou plus.",
+    "q6": "Quelle est la différence entre une moto automatique et manuelle ?",
+    "a6": "Les scooters automatiques (comme le Honda Scoopy ou le Vario) fonctionnent sans embrayage ni changement de vitesse — l'option la plus simple pour les débutants à Bali. Les motos manuelles ont un embrayage et un levier de vitesses, adaptées aux conducteurs expérimentés qui souhaitent plus de contrôle.",
+    "q7": "Puis-je louer un scooter à Bali pour une seule journée ?",
+    "a7": "Oui, la location à la journée est disponible pour tous les véhicules de notre flotte. Les réservations à la semaine ou au mois réduisent le tarif journalier effectif pour un séjour plus long.",
+    "q8": "Que se passe-t-il en cas de panne ou d'accident ?",
+    "a8": "Appelez notre assistance routière 24h/24 et nous viendrons à vous — avec un véhicule de remplacement si le vôtre ne peut pas être réparé sur place. La responsabilité en cas de dommages est plafonnée à une franchise fixe grâce à notre politique sans caution.",
+    "q9": "Comment puis-je payer ma location ?",
+    "a9": "Paiement en espèces à la livraison — vous payez en roupies indonésiennes ou en dollars américains directement au livreur lorsque votre véhicule est livré. Aucun paiement en ligne, coordonnées bancaires ou virement n'est requis pour réserver."
+  },
+  "LocationsPage": {
+    "title": "Explorez Bali en Scooter",
+    "intro": "Récupérez votre véhicule dans l'un de nos lieux, et rendez-le où votre séjour se termine.",
+    "h1": "Location de Scooters et Motos à {location}, Bali",
+    "bikesAvailable": "Véhicules disponibles pour prise en charge à {location}"
+  },
+  "LocationDescriptions": {
+    "canggu": "Canggu est le repaire décontracté de surf et de cafés de Bali sur la côte ouest — routes plates et trajets courts en font un terrain de scooter facile.",
+    "seminyak": "Seminyak est la station balnéaire la plus établie de Bali, à quelques minutes de l'aéroport avec un accès facile à Kuta et Legian.",
+    "uluwatu": "Uluwatu se trouve sur la péninsule sud de Bali, célèbre pour ses temples perchés sur les falaises et ses spots de surf de classe mondiale — des routes sinueuses qui récompensent les conducteurs confiants.",
+    "ubud": "Ubud est le cœur culturel de Bali, entouré de rizières et de jungle dans l'intérieur plus frais de l'île — un scooter est le meilleur moyen d'atteindre Tegalalang et les villages environnants.",
+    "sanur": "Sanur est une ville balnéaire calme et familiale sur la côte est, avec une eau calme et des routes plates et faciles.",
+    "denpasar-airport": "Livraison et récupération à l'aéroport de Ngurah Rai — prise en charge selon les détails du vol, avec un chauffeur qui vous accueille au terminal."
+  },
+  "NewsPage": {
+    "title": "Actualités Scooter & Moto à Bali",
+    "intro": "Réglementation routière, sécurité, événements et informations pratiques pour tous ceux qui roulent en scooter ou en moto à Bali.",
+    "readMore": "Lire la suite",
+    "backToNews": "Retour aux actualités",
+    "relatedTitle": "Plus de KanggiGo Rental",
+    "noArticles": "Aucun article publié pour le moment — revenez bientôt.",
+    "publishedOn": "Publié le {date}"
+  },
+  "NotFound": {
+    "title": "Page non trouvée",
+    "body": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "Common": {
+    "loading": "Chargement...",
+    "home": "Accueil"
+  },
+  "SeoContent": {
+    "howTitle": "Louer un Scooter à Bali : à Quoi s'Attendre",
+    "howBody": "Rouler en scooter est le moyen le plus rapide et le plus abordable de se déplacer à Bali, où environ quatre millions de deux-roues partagent les routes avec un nombre bien plus restreint de voitures. Louer avec KanggiGo Rental commence par choisir un véhicule en ligne — les scooters automatiques comme le Honda Vario ou le Yamaha NMAX conviennent à la plupart des conducteurs, tandis qu'une moto manuelle ou un modèle adventure offre plus de contrôle sur les routes plus escarpées de l'intérieur. Une fois vos dates confirmées, nous livrons le véhicule à votre hôtel, votre villa ou l'aéroport de Ngurah Rai avec casque, plein d'essence et support téléphone inclus, sans caution à payer à l'avance. À la fin de votre séjour, rendez le véhicule où vous voulez sur l'île — Canggu, Ubud, Uluwatu, Seminyak, Sanur, ou à l'aéroport — et nous viendrons le récupérer.",
+    "costTitle": "Combien Coûte la Location d'un Scooter à Bali ?",
+    "costBody": "Les prix de location de scooter à Bali varient généralement d'environ 6 $ par jour pour un scooter automatique basique comme le Honda Scoopy jusqu'à 15-20 $ par jour pour un modèle adventure plus grand ou une moto manuelle, les réservations à la semaine ou au mois réduisant sensiblement le tarif journalier effectif. À titre de comparaison, une seule course en VTC à travers la ville peut coûter plus cher qu'une journée complète de location de scooter. L'essence est également peu chère — un plein sur un petit scooter ne coûte que quelques dollars et dure généralement deux jours de conduite normale.",
+    "fleetTitle": "Nos Standards de Flotte",
+    "fleetBody": "Chaque véhicule de notre flotte est inspecté et entretenu entre les locations — pneus, freins, fluides, feux et rétroviseurs — afin que vous ne receviez jamais un véhicule qui n'a pas été vérifié. Notre gamme comprend des scooters automatiques (Honda Scoopy, Vario, Yamaha NMAX) pour rouler facilement en ville et sur les routes côtières, des modèles adventure (Honda ADV, Yamaha XMAX) pour les longs trajets et les terrains vallonnés, des motos manuelles (Yamaha XSR, Honda CB150R) pour les conducteurs qui veulent plus de contrôle, et un scooter électrique pour une conduite plus silencieuse et économique en ville."
+  }
+}

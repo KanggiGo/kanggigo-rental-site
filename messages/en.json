@@ -1,0 +1,257 @@
+{
+  "Metadata": {
+    "siteTitle": "KanggiGo Rental",
+    "siteTagline": "Scooter & Motorbike Rental in Bali",
+    "defaultDescription": "KanggiGo Rental delivers well-maintained scooters and motorbikes anywhere in Bali — zero deposit, free delivery, and roadside assistance included.",
+    "fleetTitle": "Scooter & Motorbike Rental Fleet in Bali",
+    "fleetDescription": "Browse our full fleet of automatic scooters, manual motorbikes, adventure bikes, and electric scooters for rent in Bali. Compare prices, filter by type, and book online with zero deposit."
+  },
+  "Nav": {
+    "bikes": "Our Fleet",
+    "howItWorks": "How It Works",
+    "locations": "Locations",
+    "news": "News",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "admin": "Admin"
+  },
+  "Language": {
+    "label": "Language"
+  },
+  "Currency": {
+    "label": "Currency"
+  },
+  "Home": {
+    "heroTitle": "Rent Your Scooter in Bali Now",
+    "heroSubtitle": "Zero deposit. Free delivery to your hotel or the airport. Return anywhere on the island.",
+    "searchPickup": "Delivery / Pick-up location",
+    "searchDropoff": "Different drop-off",
+    "searchStartDate": "Start date",
+    "searchEndDate": "End date",
+    "searchButton": "Search bikes",
+    "anyLocation": "Choose a location",
+    "trustZeroDeposit": "Zero deposit",
+    "trustZeroDepositBody": "No upfront security bond — the quoted price is the total price.",
+    "trustFreeDelivery": "Free delivery",
+    "trustFreeDeliveryBody": "We bring the bike to your hotel, villa, or the airport.",
+    "trustSecure": "Cash on delivery",
+    "trustSecureBody": "Pay in cash (IDR or USD) directly to the driver when your bike arrives — no online payment or card details needed.",
+    "trustRoadside": "Roadside assistance",
+    "trustRoadsideBody": "Help is a phone call away anywhere in Bali, day or night.",
+    "howItWorksTitle": "How to Rent a Scooter in Bali",
+    "howItWorksSubtitle": "Book online in minutes, we deliver, you ride.",
+    "step1Title": "Choose a bike and book online",
+    "step1Body": "Pick from automatic scooters, manual bikes, or adventure models. Confirm your dates and get an instant quote — zero deposit on every booking.",
+    "step2Title": "Free delivery to your hotel or the airport",
+    "step2Body": "We deliver your scooter directly to your accommodation or Ngurah Rai Airport, with a helmet, full tank, and phone holder included.",
+    "step3Title": "Ride Bali, return anywhere",
+    "step3Body": "Canggu, Ubud, Uluwatu, Seminyak — wherever your trip ends, we collect the bike from any agreed location on the island.",
+    "featuredTitle": "Our Bikes",
+    "featuredSubtitle": "Explore Bali with our quality rentals",
+    "viewAll": "See all bikes",
+    "exploreTitle": "Best Places to Explore in Bali by Scooter",
+    "exploreSubtitle": "Pick up at any of our locations, drop off wherever your trip ends.",
+    "reviewsTitle": "What our riders are saying",
+    "reviewsSubtitle": "Real feedback from real trips around Bali.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Everything you need to know before you ride."
+  },
+  "BikeCard": {
+    "perDay": "/day",
+    "perWeek": "/week",
+    "perMonth": "/month",
+    "from": "From",
+    "seats": "{count, plural, one {# seat} other {# seats}}",
+    "helmets": "{count, plural, one {# helmet} other {# helmets}}",
+    "viewDetails": "View details",
+    "engineCc": "{cc}cc"
+  },
+  "BikeCategory": {
+    "SCOOTER_AUTOMATIC": "Automatic Scooter",
+    "MANUAL": "Manual",
+    "ADVENTURE": "Adventure",
+    "ELECTRIC": "Electric"
+  },
+  "Transmission": {
+    "AUTOMATIC": "Automatic",
+    "MANUAL": "Manual"
+  },
+  "BikeStatus": {
+    "AVAILABLE": "Available",
+    "MAINTENANCE": "In maintenance",
+    "RETIRED": "Retired"
+  },
+  "Filters": {
+    "title": "Filters",
+    "category": "Bike type",
+    "transmission": "Transmission",
+    "priceRange": "Price per day",
+    "min": "Min",
+    "max": "Max",
+    "any": "Any",
+    "sortBy": "Sort by",
+    "sortNewest": "Newest",
+    "sortPriceAsc": "Price: low to high",
+    "sortPriceDesc": "Price: high to low",
+    "resultsCount": "{count, plural, one {# bike} other {# bikes}} found",
+    "noResults": "No bikes match your filters yet.",
+    "noResultsHint": "Try widening your price range or choosing a different type.",
+    "apply": "Apply filters",
+    "reset": "Reset"
+  },
+  "Pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {current} of {total}"
+  },
+  "BikeDetail": {
+    "specifications": "Specifications",
+    "brand": "Brand",
+    "category": "Bike type",
+    "transmission": "Transmission",
+    "engineCc": "Engine",
+    "seats": "Seats",
+    "helmets": "Helmets included",
+    "description": "Description",
+    "pricing": "Pricing",
+    "perDay": "per day",
+    "perWeek": "per week",
+    "perMonth": "per month",
+    "bookNow": "Request this bike",
+    "whatsappInquiry": "Ask on WhatsApp",
+    "whatsappMessage": "Hi KanggiGo Rental, I'm interested in the {name} ({url}). Is it available?",
+    "contactAlternative": "Or send a booking request",
+    "similarTitle": "Similar bikes",
+    "backToFleet": "Back to fleet",
+    "reference": "Reference"
+  },
+  "BookingForm": {
+    "title": "Request a booking",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone / WhatsApp number",
+    "pickupLocation": "Pick-up location",
+    "dropoffLocation": "Drop-off location",
+    "differentDropoff": "Different drop-off location",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "message": "Message (optional)",
+    "submit": "Send booking request",
+    "submitting": "Sending...",
+    "success": "Thanks! Your booking request has been sent — we'll confirm availability by WhatsApp or email shortly.",
+    "error": "Something went wrong. Please try again or contact us on WhatsApp.",
+    "nameRequired": "Please enter your name.",
+    "emailInvalid": "Please enter a valid email address.",
+    "phoneRequired": "Please enter a phone or WhatsApp number.",
+    "locationRequired": "Please choose a pick-up location.",
+    "dateRequired": "Please choose your start and end dates.",
+    "dateInvalid": "The end date must be after the start date.",
+    "paymentNote": "Pay cash on delivery (IDR or USD) — no online payment or card details needed to book."
+  },
+  "ContactForm": {
+    "title": "Send us a message",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Thank you! Your message has been sent, we'll get back to you shortly.",
+    "error": "Something went wrong. Please try again or contact us on WhatsApp.",
+    "nameRequired": "Please enter your name.",
+    "emailInvalid": "Please enter a valid email address.",
+    "messageRequired": "Please enter a message."
+  },
+  "Footer": {
+    "tagline": "Scooter and motorbike rental across Bali — zero deposit, free delivery.",
+    "exploreTitle": "Explore",
+    "locationsTitle": "Popular locations",
+    "contactTitle": "Contact",
+    "whatsapp": "Chat on WhatsApp",
+    "rightsReserved": "All rights reserved."
+  },
+  "About": {
+    "title": "About KanggiGo Rental",
+    "intro": "KanggiGo Rental delivers well-maintained scooters and motorbikes anywhere in Bali. Every bike is serviced between rentals — tyres, brakes, fluids, lights, mirrors — and our zero-deposit policy means the price you're quoted is the price you pay.",
+    "body": "Bali runs on scooters, and for any stay longer than a day or two, renting one is the most practical way to see the island on your own schedule. We deliver to your hotel, villa, or Ngurah Rai Airport, and collect the bike from anywhere on the island when your trip ends."
+  },
+  "HowItWorksPage": {
+    "title": "How It Works",
+    "intro": "Renting with KanggiGo Rental takes a few minutes, and there's no deposit to pay upfront.",
+    "licenseTitle": "License requirements",
+    "licenseBody": "An International Driving Permit (IDP) with a motorcycle endorsement, or a valid license from your home country, is required by Indonesian law to ride a scooter or motorbike in Bali. We recommend carrying it with you at all times.",
+    "deliveryTitle": "Delivery & pick-up",
+    "deliveryBody": "For bookings of three days or longer, delivery to your hotel, villa, or Ngurah Rai Airport is free. Shorter bookings can be arranged for a small delivery fee. Every bike arrives with a helmet, a full tank, and a phone holder.",
+    "paymentTitle": "Payment",
+    "paymentBody": "We accept cash on delivery only — Indonesian Rupiah or US Dollars, paid directly to the driver when your bike arrives. There's no online payment, card details, or bank transfer required to confirm a booking, and nothing is charged until the bike is in your hands.",
+    "damageTitle": "Damage & insurance",
+    "damageBody": "Every rental includes basic damage coverage with a fixed excess, so you're never liable for the full value of the bike. Full details are confirmed with your booking."
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "intro": "Have a question about a booking or need help finding the right bike? Reach out and our team will respond shortly."
+  },
+  "FAQPage": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know before you ride.",
+    "q1": "How much does it cost to rent a scooter in Bali?",
+    "a1": "Prices vary by model, season, and rental duration. Weekly and monthly bookings lower the effective daily rate. Our zero-deposit policy means the quoted price is the total amount charged.",
+    "q2": "Can I rent a scooter in Bali without a deposit?",
+    "a2": "Yes — every KanggiGo Rental booking has a zero-deposit policy. Damage liability is capped at a fixed excess instead of an upfront security bond.",
+    "q3": "Do I need a license to rent a scooter in Bali?",
+    "a3": "Yes, an International Driving Permit with a motorcycle endorsement, or a valid license from your home country, is required by Indonesian law.",
+    "q4": "Is insurance included with the rental?",
+    "a4": "Every bike includes basic damage coverage with a fixed excess, so you're not liable for the full value of the vehicle.",
+    "q5": "Where can you deliver the bike?",
+    "a5": "Anywhere in Bali — your hotel, villa, or Ngurah Rai Airport. Delivery is free for bookings of three days or longer.",
+    "q6": "What's the difference between an automatic and a manual bike?",
+    "a6": "Automatic scooters (like the Honda Scoopy or Vario) are twist-and-go with no gears or clutch — the easiest option for first-time riders in Bali. Manual bikes have a clutch and gear shifter and suit riders with prior motorcycle experience who want more control.",
+    "q7": "Can I rent a scooter in Bali for just one day?",
+    "a7": "Yes, single-day rentals are available on every bike in our fleet. Weekly and monthly bookings lower the effective daily rate if you're staying longer.",
+    "q8": "What happens if the bike breaks down or I'm in an accident?",
+    "a8": "Call our 24/7 roadside assistance line and we'll come to you — with a replacement bike if yours can't be repaired on the spot. Damage liability is capped at a fixed excess under our zero-deposit policy, so you're never billed for the full value of the bike.",
+    "q9": "How do I pay for my rental?",
+    "a9": "Cash on delivery — you pay in Indonesian Rupiah or US Dollars directly to the driver when your bike is delivered. No online payment, card details, or bank transfer is required to book."
+  },
+  "LocationsPage": {
+    "title": "Explore Bali by Scooter",
+    "intro": "Pick up at any of our locations, and drop off wherever your trip ends.",
+    "h1": "Scooter & Motorbike Rental in {location}, Bali",
+    "bikesAvailable": "Bikes available for pick-up in {location}"
+  },
+  "LocationDescriptions": {
+    "canggu": "Canggu is Bali's laid-back surf-and-café hub on the west coast — flat roads and short hops make it easy scooter territory.",
+    "seminyak": "Seminyak is Bali's established beach resort area, a short ride from the airport with easy access to Kuta and Legian.",
+    "uluwatu": "Uluwatu sits on Bali's southern peninsula, famous for its clifftop temples and surf breaks — winding roads reward a confident rider.",
+    "ubud": "Ubud is Bali's cultural heart, set among rice terraces and jungle in the cooler interior — a scooter is the best way to reach Tegalalang and the surrounding villages.",
+    "sanur": "Sanur is a quiet, family-friendly beach town on the east coast, with calm water and flat, easy roads.",
+    "denpasar-airport": "Ngurah Rai Airport delivery and collection — flight-detail pickup with a driver meeting you at the terminal."
+  },
+  "NewsPage": {
+    "title": "Bali Motorbike & Scooter News",
+    "intro": "Traffic rules, road safety, events, and practical updates for anyone riding a scooter or motorbike in Bali.",
+    "readMore": "Read more",
+    "backToNews": "Back to news",
+    "relatedTitle": "More from KanggiGo Rental",
+    "noArticles": "No articles published yet — check back soon.",
+    "publishedOn": "Published {date}"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or may have moved.",
+    "cta": "Back to homepage"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "home": "Home"
+  },
+  "SeoContent": {
+    "howTitle": "Renting a Scooter in Bali: What to Expect",
+    "howBody": "Riding a scooter is the fastest and most affordable way to get around Bali, where roughly four million motorbikes share the roads with a much smaller number of cars. Renting with KanggiGo Rental starts with picking a bike online — automatic scooters like the Honda Vario or Yamaha NMAX suit most riders, while a manual bike or adventure model gives more control on steeper routes inland. Once you confirm your dates, we deliver the bike to your hotel, villa, or Ngurah Rai Airport with a helmet, full tank, and phone holder included, and there's no deposit to pay upfront. When your trip ends, drop the bike off anywhere on the island — Canggu, Ubud, Uluwatu, Seminyak, Sanur, or back at the airport — and we'll come collect it.",
+    "costTitle": "How Much Does It Cost to Rent a Scooter in Bali?",
+    "costBody": "Scooter rental prices in Bali typically range from around $6 a day for a basic automatic like the Honda Scoopy up to $15-20 a day for a larger adventure bike or manual motorcycle, with weekly and monthly bookings lowering the effective daily rate significantly. For comparison, a single ride-hailing trip across town can cost more than a full day of scooter rental, and a private driver runs several times that for a similar distance. Fuel is inexpensive too — a full tank on a small scooter costs only a couple of dollars and typically lasts two days of normal riding. Enter your dates on any bike's page for an instant quote in USD, with the IDR equivalent shown alongside it.",
+    "fleetTitle": "Our Fleet Standards",
+    "fleetBody": "Every bike in our fleet is inspected and serviced between rentals — tyres, brakes, fluids, lights, and mirrors — so you're never handed a vehicle that hasn't been checked. Our lineup spans automatic scooters (Honda Scoopy, Vario, Yamaha NMAX) for easy city and beach-road riding, adventure models (Honda ADV, Yamaha XMAX) for longer trips and hillier terrain, manual motorbikes (Yamaha XSR, Honda CB150R) for riders who want more control, and an electric scooter option for a quieter, lower-cost ride around town. This is the difference between a professionally managed rental fleet and an informal roadside rental, where maintenance history is anyone's guess."
+  }
+}

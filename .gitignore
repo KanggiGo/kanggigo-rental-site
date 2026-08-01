@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local sqlite dev database (production uses DATABASE_URL to a hosted db)
+/prisma/dev.db
+/prisma/dev.db-journal
+
+# raw source images (originals live locally; optimized copies already
+# committed under public/uploads and public/logo are what the site serves)
+/IMAGES/
+/Locations/
+/News/
+/logos/
+
+# local tooling config
+/.claude/
