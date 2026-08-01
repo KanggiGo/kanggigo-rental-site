@@ -3,6 +3,12 @@ import { prisma } from "@/lib/prisma";
 import { locales } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/seo";
 
+// Generated per-request rather than at build time: the free-tier Postgres
+// database suspends when idle, and a cold database at build time would fail
+// the whole deploy. Sitemaps don't need to be static — crawlers re-fetch
+// periodically regardless.
+export const dynamic = "force-dynamic";
+
 const STATIC_PATHS = [
   "",
   "/bikes",
