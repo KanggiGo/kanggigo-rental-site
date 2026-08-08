@@ -50,6 +50,7 @@ next-env.d.ts
 /Locations/
 /News/
 /logos/
+/NEWARRIVALES/
 
 # local tooling config
 /.claude/

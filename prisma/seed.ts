@@ -24,6 +24,9 @@ type BikeSeed = {
   seats: number;
   helmetsIncluded: number;
   pricePerDay: number;
+  // Overrides the default pricePerDay * 20 monthly estimate when a real
+  // advertised monthly rate is known (doesn't always follow the formula).
+  pricePerMonth?: number;
   isFeatured: boolean;
   description: L4;
   images: BikeImageSeed[];
@@ -289,6 +292,63 @@ const BIKES: BikeSeed[] = [
       id: "Mesin Blue Core 155cc VVA dan rem cakram ABS yang sama seperti NMAX standar, dilengkapi rak belakang untuk pengendara yang menuju spot selancar di Canggu, Uluwatu, atau Balangan. Bagasi bawah jok tetap muat untuk helm full-face, dan joknya yang luas membuatnya nyaman untuk perjalanan pulang dengan papan terikat. Pilihan praktis jika Anda ingin satu motor untuk urusan harian sekaligus sesi selancar.",
       ru: "Тот же 155-кубовый двигатель Blue Core VVA и дисковые тормоза с ABS, что и в стандартном NMAX, с задним багажником для тех, кто едет на споты в Чангу, Улувату или Баланган. Багажник под сиденьем по-прежнему вмещает полнолицевой шлем, а просторное сиденье делает поездку обратно с закреплённой доской комфортной. Практичный выбор, если нужен один байк и для повседневных дел, и для сёрф-сессии.",
       fr: "Le même moteur Blue Core 155 cm³ à VVA et les mêmes freins à disque ABS que notre NMAX standard, équipé d'un porte-planche arrière pour les conducteurs qui rejoignent les spots de Canggu, Uluwatu ou Balangan. Le rangement sous la selle accueille toujours un casque intégral, et la selle spacieuse garde le trajet retour confortable avec une planche attachée. Un choix pratique pour un seul scooter qui couvre à la fois les courses quotidiennes et une session de surf.",
+    },
+  },
+  {
+    name: "Yamaha NMAX 155 Matte Navy",
+    brand: "Yamaha",
+    category: "SCOOTER_AUTOMATIC",
+    transmission: "AUTOMATIC",
+    engineCc: 155,
+    seats: 2,
+    helmetsIncluded: 2,
+    pricePerDay: 5.696203,
+    pricePerMonth: 126.582278,
+    isFeatured: false,
+    images: [{ file: "yamaha-nmax-155cc-matte-navy.jpg", alt: "Yamaha NMAX 155 in matte navy with a smoked windscreen, available for rent in Bali" }],
+    description: {
+      en: "The same 155cc Blue Core VVA engine and ABS-linked disc brakes as our standard NMAX, finished in a deep matte navy with a smoked windscreen for a stealthier look than the usual gloss black. Underseat storage still swallows a full-face helmet, and the roomy seat keeps it comfortable for longer rides between Uluwatu's clifftop villas and the coast. A great pick if you want NMAX performance with a quieter, more understated finish.",
+      id: "Mesin Blue Core 155cc VVA dan rem cakram ABS yang sama seperti NMAX standar, dengan warna matte navy gelap dan kaca depan smoked untuk tampilan yang lebih diam-diam dibanding hitam glossy biasa. Bagasi bawah jok tetap muat untuk helm full-face, dan joknya yang luas membuatnya nyaman untuk perjalanan lebih jauh antara vila-vila tebing Uluwatu dan pesisir. Pilihan tepat jika Anda ingin performa NMAX dengan tampilan yang lebih halus.",
+      ru: "Тот же 155-кубовый двигатель Blue Core VVA и дисковые тормоза с ABS, что и в стандартном NMAX, в глубоком матовом тёмно-синем цвете с затемнённым ветровым стеклом для более сдержанного вида, чем обычный глянцевый чёрный. Багажник под сиденьем по-прежнему вмещает полнолицевой шлем, а просторное сиденье делает его удобным для более долгих поездок между виллами на утёсах Улувату и побережьем. Отличный выбор, если нужна производительность NMAX с более скромной отделкой.",
+      fr: "Le même moteur Blue Core 155 cm³ à VVA et les mêmes freins à disque ABS que notre NMAX standard, dans un bleu marine mat profond avec un pare-brise fumé pour une allure plus discrète que le noir brillant habituel. Le rangement sous la selle accueille toujours un casque intégral, et la selle spacieuse garde le confort sur les trajets plus longs entre les villas perchées d'Uluwatu et la côte. Un excellent choix pour la performance du NMAX avec une finition plus sobre.",
+    },
+  },
+  {
+    name: "Yamaha XMAX 250 Cream Edition",
+    brand: "Yamaha",
+    category: "ADVENTURE",
+    transmission: "AUTOMATIC",
+    engineCc: 250,
+    seats: 2,
+    helmetsIncluded: 2,
+    pricePerDay: 9.493671,
+    pricePerMonth: 221.518987,
+    isFeatured: false,
+    images: [{ file: "yamaha-xmax-250cc-cream-gold.jpg", alt: "Yamaha XMAX 250 in cream with gold wheels, available for rent in Bali" }],
+    description: {
+      en: "The same 250cc Blue Core engine with Variable Valve Actuation found across our XMAX lineup — around 22.5 hp, traction control, and ABS on both wheels — finished in a warm cream paint with gold-finished wheels for a softer, more elegant look than the standard black. Full LED lighting, a clear touring windscreen, and the spacious underseat storage carry over, making this as practical for the climb to Kintamani as it is eye-catching parked outside your villa.",
+      id: "Mesin Blue Core 250cc dengan VVA yang sama mumpuninya seperti di seluruh lini XMAX kami — sekitar 22,5 hp, traction control, dan ABS di kedua roda — dengan cat krem hangat dan velg berwarna emas untuk tampilan yang lebih lembut dan elegan dibanding hitam standar. Lampu LED penuh, kaca depan touring yang jernih, dan bagasi bawah jok yang luas tetap dipertahankan, menjadikannya praktis untuk tanjakan ke Kintamani sekaligus menarik perhatian saat terparkir di depan vila Anda.",
+      ru: "Тот же мощный 250-кубовый двигатель Blue Core с VVA, что и во всей линейке XMAX — около 22,5 л.с., контроль тяги и ABS на обоих колёсах — в тёплой кремовой окраске с золотистыми колёсными дисками для более мягкого и элегантного вида, чем стандартный чёрный. Полностью светодиодная оптика, прозрачное туристическое ветровое стекло и просторный багажник под сиденьем сохранены, что делает его практичным для подъёма к Кинтамани и одновременно эффектным на парковке у вашей виллы.",
+      fr: "Le même moteur Blue Core 250 cm³ à VVA que l'on retrouve dans toute notre gamme XMAX — environ 22,5 ch, contrôle de traction et ABS sur les deux roues — dans une peinture crème chaleureuse avec des jantes dorées pour une allure plus douce et élégante que le noir standard. L'éclairage tout LED, un pare-brise de tourisme transparent et le vaste rangement sous la selle sont conservés, ce qui le rend aussi pratique pour la montée vers Kintamani que remarquable garé devant votre villa.",
+    },
+  },
+  {
+    name: "Yamaha XMAX 250 Onyx Edition",
+    brand: "Yamaha",
+    category: "ADVENTURE",
+    transmission: "AUTOMATIC",
+    engineCc: 250,
+    seats: 2,
+    helmetsIncluded: 2,
+    pricePerDay: 9.493671,
+    pricePerMonth: 221.518987,
+    isFeatured: false,
+    images: [{ file: "yamaha-xmax-250cc-onyx-gold.jpg", alt: "Yamaha XMAX 250 in gloss black with gold wheels, available for rent in Bali" }],
+    description: {
+      en: "The latest-generation XMAX 250, with a sharper LED light signature and the same 250cc Blue Core VVA engine putting out around 22.5 hp, traction control, and ABS on both wheels. Finished in gloss black with gold-finished wheels for a sharper, more premium look than our earlier XMAX models. Full LED lighting and the spacious underseat storage carry over, making this as capable for touring around Bali as it is striking parked outside your villa.",
+      id: "XMAX 250 generasi terbaru, dengan signature lampu LED yang lebih tajam dan mesin Blue Core VVA 250cc yang sama menghasilkan sekitar 22,5 hp, traction control, dan ABS di kedua roda. Dibalut warna hitam glossy dengan velg emas untuk tampilan yang lebih tajam dan premium dibanding model XMAX kami sebelumnya. Lampu LED penuh dan bagasi bawah jok yang luas tetap dipertahankan, menjadikannya semampu itu untuk touring keliling Bali sekaligus mencolok saat terparkir di depan vila Anda.",
+      ru: "XMAX 250 нового поколения с более резкой светодиодной оптикой и тем же 250-кубовым двигателем Blue Core VVA мощностью около 22,5 л.с., контролем тяги и ABS на обоих колёсах. Выполнен в глянцевом чёрном цвете с золотистыми колёсными дисками для более острого и премиального вида, чем наши предыдущие модели XMAX. Полностью светодиодная оптика и просторный багажник под сиденьем сохранены, что делает его таким же способным для путешествий по Бали, как и эффектным на парковке у вашей виллы.",
+      fr: "Le XMAX 250 de dernière génération, avec une signature lumineuse LED plus tranchante et le même moteur Blue Core 250 cm³ à VVA développant environ 22,5 ch, un contrôle de traction et l'ABS sur les deux roues. Habillé de noir brillant avec des jantes dorées pour une allure plus affûtée et premium que nos modèles XMAX précédents. L'éclairage tout LED et le vaste rangement sous la selle sont conservés, ce qui le rend aussi capable pour le tourisme autour de Bali que remarquable garé devant votre villa.",
     },
   },
 ];
@@ -599,7 +659,7 @@ async function main() {
         helmetsIncluded: bike.helmetsIncluded,
         pricePerDay: bike.pricePerDay,
         pricePerWeek: Math.round(bike.pricePerDay * 6 * 100) / 100,
-        pricePerMonth: Math.round(bike.pricePerDay * 20 * 100) / 100,
+        pricePerMonth: bike.pricePerMonth ?? Math.round(bike.pricePerDay * 20 * 100) / 100,
         currency: Currency.USD,
         status: BikeStatus.AVAILABLE,
         isFeatured: bike.isFeatured,
