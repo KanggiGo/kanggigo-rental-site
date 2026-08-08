@@ -6,16 +6,14 @@ import BikeGallery from "@/components/bike/BikeGallery";
 import BikePrice from "@/components/bike/BikePrice";
 import BikeGrid from "@/components/bike/BikeGrid";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
-import BookingForm from "@/components/booking/BookingForm";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { getBikeBySlug, getSimilarBikes } from "@/lib/bikes";
-import { getLocationOptions } from "@/lib/locations";
 import { buildAlternates, bikeProductJsonLd, SITE_URL } from "@/lib/seo";
 import {
   EngineIcon,
   SeatIcon,
   HelmetIcon,
-  ChatIcon,
+  CashIcon,
 } from "@/components/icons/Icons";
 import type { ComponentType } from "react";
 
@@ -51,14 +49,14 @@ export default async function BikeDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  const [bike, t, tCategory, tTransmission, tNav, tCommon, locations] = await Promise.all([
+  const [bike, t, tCategory, tTransmission, tNav, tCommon, tBooking] = await Promise.all([
     getBikeBySlug(slug, locale),
     getTranslations({ locale, namespace: "BikeDetail" }),
     getTranslations({ locale, namespace: "BikeCategory" }),
     getTranslations({ locale, namespace: "Transmission" }),
     getTranslations({ locale, namespace: "Nav" }),
     getTranslations({ locale, namespace: "Common" }),
-    getLocationOptions(),
+    getTranslations({ locale, namespace: "BookingForm" }),
   ]);
   if (!bike) notFound();
 
@@ -153,13 +151,10 @@ export default async function BikeDetailPage({ params }: Props) {
         <aside className="w-full shrink-0 lg:w-96">
           <div className="sticky top-24 space-y-4 rounded-xl border border-border bg-white p-5">
             <WhatsAppButton message={whatsappMessage} label={t("whatsappInquiry")} className="w-full" />
-            <div className="border-t border-border pt-4">
-              <p className="mb-3 flex items-center gap-1.5 text-sm font-medium text-muted">
-                <ChatIcon className="h-4 w-4 shrink-0" />
-                {t("contactAlternative")}
-              </p>
-              <BookingForm bikeId={bike.id} locations={locations} />
-            </div>
+            <p className="flex items-start gap-1.5 rounded-md bg-sand px-3 py-2 text-xs text-ink">
+              <CashIcon className="h-4 w-4 shrink-0 text-accent" />
+              {tBooking("paymentNote")}
+            </p>
           </div>
         </aside>
       </div>
