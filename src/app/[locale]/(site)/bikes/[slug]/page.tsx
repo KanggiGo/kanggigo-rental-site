@@ -95,12 +95,24 @@ export default async function BikeDetailPage({ params }: Props) {
         ← {t("backToFleet")}
       </Link>
 
-      <BikeGallery
-        images={bike.images.map((img) => ({ url: img.url, altText: img.altText || bike.name }))}
-        seed={bike.id}
-      />
+      <div className="mt-4 flex flex-col gap-8 lg:flex-row">
+        <div className="w-full shrink-0 lg:w-[440px]">
+          <div className="lg:sticky lg:top-24">
+            <BikeGallery
+              images={bike.images.map((img) => ({ url: img.url, altText: img.altText || bike.name }))}
+              seed={bike.id}
+            />
 
-      <div className="mt-8 flex flex-col gap-8 lg:flex-row">
+            <div className="mt-4 space-y-4 rounded-xl border border-border bg-white p-5">
+              <WhatsAppButton message={whatsappMessage} label={t("whatsappInquiry")} className="w-full" />
+              <p className="flex items-start gap-1.5 rounded-md bg-sand px-3 py-2 text-xs text-ink">
+                <CashIcon className="h-4 w-4 shrink-0 text-accent" />
+                {tBooking("paymentNote")}
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="flex-1">
           <p className="text-xs font-medium uppercase tracking-wide text-muted">{bike.brand}</p>
           <h1 className="mt-1 font-heading text-2xl font-bold text-ink sm:text-3xl">{bike.name}</h1>
@@ -147,16 +159,6 @@ export default async function BikeDetailPage({ params }: Props) {
             </section>
           )}
         </div>
-
-        <aside className="w-full shrink-0 lg:w-96">
-          <div className="sticky top-24 space-y-4 rounded-xl border border-border bg-white p-5">
-            <WhatsAppButton message={whatsappMessage} label={t("whatsappInquiry")} className="w-full" />
-            <p className="flex items-start gap-1.5 rounded-md bg-sand px-3 py-2 text-xs text-ink">
-              <CashIcon className="h-4 w-4 shrink-0 text-accent" />
-              {tBooking("paymentNote")}
-            </p>
-          </div>
-        </aside>
       </div>
     </div>
   );
