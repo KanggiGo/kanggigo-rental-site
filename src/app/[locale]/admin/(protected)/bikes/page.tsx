@@ -73,7 +73,7 @@ export default async function AdminBikesPage({
                 <td className="px-4 py-3 text-muted">
                   {bike.category} · {bike.transmission}
                 </td>
-                <td className="px-4 py-3 text-muted">${Number(bike.pricePerDay).toLocaleString()}</td>
+                <td className="px-4 py-3 text-muted">${Number(bike.pricePerDay).toFixed(2)}</td>
                 <td className="px-4 py-3 text-muted">{bike.status}</td>
                 <td className="px-4 py-3 text-muted">{bike.isFeatured ? "Yes" : "—"}</td>
                 <td className="px-4 py-3">

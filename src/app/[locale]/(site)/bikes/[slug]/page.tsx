@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!bike) notFound();
 
   const title = `${bike.name} Rental in Bali`;
-  const description = `Rent the ${bike.name} in Bali from $${Number(bike.pricePerDay)}/day. Zero deposit, free delivery to your hotel or the airport, helmet included. Book online in minutes.`;
+  const description = `Rent the ${bike.name} in Bali from $${Math.round(Number(bike.pricePerDay))}/day. Zero deposit, free delivery to your hotel or the airport, helmet included. Book online in minutes.`;
   const path = `/bikes/${bike.slug}`;
   const cover = bike.images[0]?.url;
 
